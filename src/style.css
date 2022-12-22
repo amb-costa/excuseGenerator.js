@@ -1,1 +1,36 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  width: 100%;
+  display: inline;
+  background-color: #ffe6ff;
+}
+
+#excuse {
+  height: 350px;
+  width: 100%;
+  font-family: Lacquer;
+  font-size: 90px;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #333399;
+}
+
+button {
+  width: 20%;
+  font-family: Inconsolata;
+  font-size: 25px;
+  padding: 5px;
+  margin-top: 50px;
+  margin-left: 40%;
+  margin-right: 40%;
+  margin-bottom: 50px;
+  background-color: #d6d6f5;
+}
+
+button:hover {
+  background-color: #9999e6;
+}
